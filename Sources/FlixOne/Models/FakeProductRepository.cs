@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace FlixOne.Models
 {
-  public class FakeProductRepository : IProductRepository
+  public class FakeProductRepository : IStoreRepository
   {
     public IQueryable<Product> Products => new List<Product>
     {

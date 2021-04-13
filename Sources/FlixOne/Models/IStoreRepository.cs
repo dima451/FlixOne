@@ -2,7 +2,7 @@
 
 namespace FlixOne.Models
 {
-  public interface IProductRepository
+  public interface IStoreRepository
   {
     IQueryable<Product> Products { get; }
   }
